@@ -1,0 +1,25 @@
+{
+  "name": "route-by-feature",
+  "version": "0.0.1",
+  "author": "Nicholas Lindley <me@thisoneplace.com>",
+  "description": "Conventional routes that live with your features",
+  "contributors": [
+    {
+      "name": "Nicholas Lindley",
+      "email": "me@thisoneplace.com"
+    }
+  ],
+  "main": "lib/route-by-feature.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nlindley/route-by-feature.git"
+  },
+  "keywords": [
+    "routes"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "inflect": "^0.3.0"
+  }
+}
