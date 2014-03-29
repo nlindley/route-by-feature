@@ -18,7 +18,7 @@ var app = express();
 var routeOptions = {
     path: path.join(__dirname, 'features'), // This one is required
     routesExtension: 'Routes.js', // Optional. default: 'Routes.js'
-    resourcesExtension: 'Resources.js' // Optional. default: 'Routes.js'
+    resourcesExtension: 'Resources.js' // Optional. default: 'Resources.js'
 };
 
 routes.register(app, routeOptions);
