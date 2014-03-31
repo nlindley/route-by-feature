@@ -44,6 +44,20 @@ var thingRoutes = {
 module.exports = thingRoutes;
 ```
 
+Or you could use JSON. Just change the `routesExtension` option to `Routes.json`.
+
+```json
+{
+    "index": { "url": "/things", "method": "get" },
+    "retrieve": { "url": "/things/:id", "method": "get" },
+    "destroy": { "url": "/things/:id", "method": "delete" },
+    "create": { "url": "/things", "method": "post" },
+    "update": { "url": "/things/:id", "method": "put" }
+}
+```
+
+And now the resources.
+
 ```javascript
 // features/things/thingResources.js
 
