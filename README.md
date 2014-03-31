@@ -16,11 +16,12 @@ var routes = require('route-by-feature');
 var app = express();
 
 var routeOptions = {
-    path: path.join(__dirname, 'features'), // This one is required
+    path: path.join(__dirname, 'features'), // Optional. default: <app directory>/features
     routesExtension: 'Routes.js', // Optional. default: 'Routes.js'
     resourcesExtension: 'Resources.js' // Optional. default: 'Resources.js'
 };
 
+// As of version 0.0.2, routeOptions is completely optional. Feel free to omit this argument.
 routes.register(app, routeOptions);
 
 app.listen(3000);
