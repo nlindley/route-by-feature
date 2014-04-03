@@ -17,8 +17,8 @@ var app = express();
 
 var routeOptions = {
     path: path.join(__dirname, 'features'), // Optional. default: <app directory>/features
-    routesExtension: 'Routes.js', // Optional. default: 'Routes.js'
-    resourcesExtension: 'Resources.js' // Optional. default: 'Resources.js'
+    routesExtension: 'Routes', // Optional. default: 'Routes'
+    resourcesExtension: 'Resources' // Optional. default: 'Resources'
 };
 
 // As of version 0.0.2, routeOptions is completely optional. Feel free to omit this argument.
@@ -45,7 +45,7 @@ var thingRoutes = {
 module.exports = thingRoutes;
 ```
 
-Or you could use JSON. Just change the `routesExtension` option to `Routes.json`.
+Or you could use JSON.
 
 ```json
 {

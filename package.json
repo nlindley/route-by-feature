@@ -1,6 +1,6 @@
 {
   "name": "route-by-feature",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Nicholas Lindley <me@thisoneplace.com>",
   "description": "Conventional routes that live with your features",
   "contributors": [
